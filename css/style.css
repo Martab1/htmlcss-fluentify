@@ -126,6 +126,8 @@ h3{
 
 /* MAIN CONTENT */
 
+
+/* first section */
 .hero{
     background-color:  #284179;
     height: 480px;
@@ -155,3 +157,22 @@ h3{
     color:#fff;
     margin-bottom: 30px;
 } 
+
+
+/*sec section*/
+
+main .text{
+   line-height: 80px;
+   background-color: rgb(235, 232, 232);
+}
+
+.text .central-text{
+    padding: 30px;
+    text-align: center;
+    line-height: 1;
+
+}
+
+.text .central-text h2{
+    color:black;
+}

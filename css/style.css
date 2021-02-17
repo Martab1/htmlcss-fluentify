@@ -138,6 +138,11 @@ hr{
     padding: 20px;
 }
 
+.btn:hover{
+    text-shadow: 0 0 4px #FFF;
+    box-shadow: 0 0 3px #FA3, inset 0 0 4px 1px #FFF;
+}
+
 
 /* MAIN CONTENT */
 
@@ -316,7 +321,6 @@ hr.special {
 .foot-2 a:not(:last-child){
     color: #8b8b8b;
 }
-
 
 .select{
     margin-right: 20px;

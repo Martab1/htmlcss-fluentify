@@ -35,7 +35,8 @@ main{
 h1,
 h2,
 h3,
-h4{
+h4,
+h5{
     font-weight: 500;
     
 }
@@ -133,10 +134,10 @@ hr{
     padding: 20px;
 }
 
+
 /* MAIN CONTENT */
 
-
-/* first section */
+/* hero section */
 .hero{
     background-color:  #284179;
     height: 480px;
@@ -235,17 +236,13 @@ main .text{
     font-size: 20px;
     text-align: center;
     margin: 0 auto;
-    
     color:limegreen;
-    
 }
 
 .explanation p{
     width: 80%;
     text-align: center;
     margin: 0 auto;
-   
-
 }
 
 .second-column .explanation p,
@@ -273,3 +270,25 @@ main .text{
 .discover a {
     color:#1e71b9;
 }
+
+
+/* FOOTER */
+
+.footer {
+    line-height: 130px;
+    background-color: rgb(235, 232, 232);
+}
+
+.footer h5{
+     font-size: 20px;
+     color: black;
+}
+
+.foot-2{
+    text-align: right;
+}
+
+.foot-2:last-child a{
+    line-height: 1;
+}
+

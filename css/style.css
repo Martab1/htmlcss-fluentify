@@ -34,13 +34,18 @@ main{
 
 h1,
 h2,
-h3{
+h3,
+h4{
     font-weight: 500;
     
 }
 
 .w-50{
     width:50%;
+}
+
+hr{
+    margin: 40px;
 }
 
 
@@ -166,14 +171,14 @@ h3{
 /* text section */
 
 main .text{
-   line-height: 80px;
+   line-height: 80px; 
    background-color: rgb(235, 232, 232);
 }
 
 .text .central-text{
-    padding: 30px;
+    padding: 30px; 
     text-align: center;
-    line-height: 1;
+     line-height: 1; 
 
 }
 
@@ -183,6 +188,7 @@ main .text{
 }
 
 /* course section */
+
 
 
 .first-column{
@@ -219,12 +225,17 @@ main .text{
     
 }
 
+
+.course .explanation hr{
+    margin: 20px;
+}
+
 .explanation h3{
     width: 80%;
     font-size: 20px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 2%;
+    
     color:limegreen;
     
 }
@@ -233,11 +244,32 @@ main .text{
     width: 80%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 20px;
+   
 
 }
 
 .second-column .explanation p,
 .second-column .explanation h3{
     width: 70%;
+}
+
+/* test section */
+
+.test img{
+    margin-right: 100px;
+}
+
+.discover h4{
+    width: 80%;
+    font-size: 30px;
+    color: black;
+}
+
+.discover p{
+    margin-bottom: 30px;
+    width: 65%;
+}
+
+.discover a {
+    color:#1e71b9;
 }

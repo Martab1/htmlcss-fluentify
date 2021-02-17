@@ -54,6 +54,11 @@ hr{
 /* MAIN HEADER */
 
 .main-header{
+    position:fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    z-index: 1;
     line-height: 80px;
     font-size: 12px;
     text-transform: uppercase;
@@ -95,8 +100,6 @@ hr{
 .main-header ul li a{
     text-decoration: none;
     color: #fff;
-    
-
 }
 
 .main-header a.btn{
@@ -191,8 +194,6 @@ main .text{
 
 /* course section */
 
-
-
 .first-column{
     width:33%;
 }
@@ -250,8 +251,6 @@ main .text{
 .second-column .explanation h3{
     width: 70%;
 }
-
-
 
 hr.style {
     border: 0;
@@ -331,22 +330,18 @@ hr.special {
 
 /* HELP BUTTON */
 
-
 .help-button{
     position:fixed;
     right:150px;
     bottom:0;
 }
 
-
- h6{
+h6{
      line-height: 1;
       font-size: 16px; 
-
 }
 
 .help-button h6 a{
     text-decoration: none;
     color:#fff;
-
 }

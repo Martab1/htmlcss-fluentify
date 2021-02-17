@@ -36,7 +36,8 @@ h1,
 h2,
 h3,
 h4,
-h5{
+h5,
+h6{
     font-weight: 500;
     
 }
@@ -290,7 +291,7 @@ hr.special {
 /* FOOTER */
 
 .footer {
-    line-height: 130px;
+    line-height: 140px;
     background-color: rgb(235, 232, 232);
 }
 
@@ -300,6 +301,7 @@ hr.special {
 }
 
 .foot-2{
+    position:relative;
     text-align: right;
 }
 
@@ -324,5 +326,22 @@ hr.special {
 
 .select .fas{
     padding-left: 30px;
+}
+
+
+/* HELP BUTTON */
+
+
+.help-button{
+    position:fixed;
+    right:150px;
+    bottom:0;
+}
+
+
+ h6{
+     line-height: 1;
+      font-size: 16px; 
+
 }
 

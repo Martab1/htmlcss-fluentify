@@ -28,7 +28,23 @@ body{
     float: left;
 }
 
+
+h1,
+h2,
+h3{
+    font-weight: 500;
+    
+}
+
+.w-50{
+    width:50%;
+}
+
+
+/* MAIN HEADER */
+
 .main-header{
+    line-height: 80px;
     font-size: 12px;
     text-transform: uppercase;
     color:#fff;
@@ -36,30 +52,25 @@ body{
 }
 
 
-/* LAYOUT */
-
-.logo{
+.main-header .logo{
     width: 15%;
-    
 }
 
-.col-center{
-    width: 50%;
-    
+.main-header .logo img{
+    vertical-align: middle;
+    position: relative;
+    bottom: 5px;
 }
 
-.col-right{
-    width: 35%;
+.main-header .col-center{
+    width: 45%;
+}
+
+.main-header .col-right{
+    width: 40%;
     text-align: right;
-   
 }
 
-/* MAIN HEADER */
-
-.main-header{
-    line-height: 80px;
-    
-}
 
 
 /* navigation */
@@ -78,3 +89,69 @@ body{
 
 }
 
+.main-header a.btn{
+    line-height: 1;
+}
+
+
+
+.main-header a:not(.btn):hover{
+    color: rgb(105, 177, 33);
+}
+
+
+
+/* buttons */
+.btn{
+    display: inline-block;
+    min-width:100px;
+    padding:10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.btn.btn-green{
+    background-color: rgb(105, 177, 33);
+    border: 1px solid transparent;
+}
+
+
+.btn.btn-big{
+    padding: 20px;
+}
+
+/* MAIN CONTENT */
+
+.hero{
+    background-color:  #284179;
+    height: 480px;
+    background-image: url("../img/background-header.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 115% 110%;
+}
+
+.hero .container{
+    position: relative;
+    height: 100%;
+    
+
+}
+
+.hero .hero-text{
+    position: absolute;
+    left:0;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+
+.hero .hero-text h1{
+    font-size: 48px;
+    color:#fff;
+    margin-bottom: 30px;
+} 

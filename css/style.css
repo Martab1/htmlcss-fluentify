@@ -28,6 +28,9 @@ body{
     float: left;
 }
 
+main{
+    font-weight: 300;
+}
 
 h1,
 h2,
@@ -121,6 +124,7 @@ h3{
 
 
 .btn.btn-big{
+    font-weight: 500;
     padding: 20px;
 }
 
@@ -159,7 +163,7 @@ h3{
 } 
 
 
-/*sec section*/
+/* text section */
 
 main .text{
    line-height: 80px;
@@ -175,4 +179,51 @@ main .text{
 
 .text .central-text h2{
     color:black;
+    margin-bottom: 10px;
+}
+
+/* course section */
+
+
+.first-column{
+    width:33%;
+}
+
+.second-column{
+    width:33%;
+}
+
+.third-column{
+    width:33%;
+}
+
+
+.first-column .image {
+    width: 100px;
+    height: 100px;
+    margin: 40px auto;
+    
+}
+
+.second-column .image {
+    width: 180px;
+    height: 100px;
+    margin: 40px auto;
+    
+}
+
+.third-column .image {
+    width: 130px;
+    height: 100px;
+    margin: 40px auto;
+    
+}
+
+.explanation h3{
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color:limegreen;
+    
 }

@@ -1,0 +1,31 @@
+/* GENERAL */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #8b8b8b;
+}
+
+/* UTILITIES */
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+

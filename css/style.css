@@ -67,7 +67,7 @@ hr{
     font-size: 12px;
     text-transform: uppercase;
     color:#fff;
-    background-color: #284179;
+    background-color: #0b2b52;
 }
 
 
@@ -152,7 +152,7 @@ hr{
 
 /* hero section */
 .hero{
-    background-color:  #284179;
+    background-color:  #0b2b52;
     height: 480px;
     background-image: url("../img/background-header.png");
     background-size: 1000px;
@@ -441,7 +441,7 @@ h4{
 .company{
     position: relative;
     height: 350px;
-    background-color: #284179;
+    background-color: #0b2b52;
 }
 
 .monitor{
@@ -485,7 +485,7 @@ h4{
 .all{
    padding-top:50px;
    height: 300px;
-   width: 90%;
+   width: 80%;
    margin: auto;
 }
 
@@ -506,7 +506,7 @@ h4{
 }
 
 .hr-structure{
-    background: #00f; 
+    background:#5daddc;
     border: 0; 
     height: 5px;
 }
@@ -520,7 +520,7 @@ h4{
 }
   
 .student a{
-    color:blue;
+    color:#5daddc;
 }
 
 .professional a {
@@ -531,13 +531,12 @@ h4{
     color:green ;
 }
 
-
 /* faqs section */
 
 .faqs{
     position: relative;
     height: 150px;
-    background-color:  #284179;
+    background-color:  #0b2b52;
 }
 
 .faqs h6{
@@ -555,4 +554,56 @@ h4{
 
 .text-faqs h6 span{
     color: orange;
+}
+
+/* FOOTER */
+
+.footer{
+    height: 350px;
+    background: #234677;
+}
+
+.us{
+    line-height: 30px;
+}
+
+.us h6{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.us li{
+    list-style: none;
+}
+
+.us li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #8b8b8b;
+}
+
+.us li a:hover{
+    text-decoration: underline;
+}
+
+.fluentify{
+    position: relative;
+    right: 100px; 
+    text-align: right;
+}
+
+.fluentify h6:first-child{
+    margin-top: 40px;
+}
+
+.fluentify h6{
+    color:#fff;
+    line-height: 50px;
+}
+
+.fluentify p{
+    margin-top: 30px;
+    line-height: 20px;
+    font-size: 14px;
 }

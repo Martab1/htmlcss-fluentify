@@ -390,3 +390,85 @@ h6{
 
 
 
+/* where section */
+
+.where hr{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0));
+}
+
+.where{
+    position: relative;
+    height: 500px;
+}
+
+.tool{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:550px;
+    height: 300px;
+}
+
+
+.central-text{
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+h4{
+    padding: 10px;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.h24{
+   color:limegreen;
+}
+
+.little-size{
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.central-text a{
+    display:inline-block;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color:#1e71b9;
+}
+
+
+/* company section */
+
+.company{
+    position: relative;
+    height: 350px;
+    background-color: #284179;
+}
+
+.monitor{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    line-height: 25px;
+}
+
+.monitor h5{
+    letter-spacing: 0.5px; 
+    font-size: 19px;
+    color:#fff;
+    margin-bottom: 35px;
+}
+
+.monitor p {
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.monitor a {
+    font-weight: 300;
+}

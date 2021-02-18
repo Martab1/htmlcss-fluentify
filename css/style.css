@@ -39,7 +39,6 @@ h4,
 h5,
 h6{
     font-weight: 500;
-    
 }
 
 .w-50{
@@ -49,7 +48,6 @@ h6{
 hr{
     margin: 40px;
 }
-
 
 .weight{
     font-weight: 300;
@@ -90,8 +88,6 @@ hr{
     text-align: right;
 }
 
-
-
 /* navigation */
 
 .main-header ul li{
@@ -99,7 +95,6 @@ hr{
     list-style: none;
     margin-right: 20px;
 }
-
 
 .main-header ul li a{
     text-decoration: none;
@@ -110,13 +105,9 @@ hr{
     line-height: 1;
 }
 
-
-
 .main-header a:not(.btn):hover{
     color: rgb(105, 177, 33);
 }
-
-
 
 /* buttons */
 .btn{
@@ -136,7 +127,6 @@ hr{
     border: 1px solid transparent;
 }
 
-
 .btn.btn-big{
     font-weight: 500;
     padding: 20px;
@@ -146,7 +136,6 @@ hr{
     text-shadow: 0 0 4px #FFF;
     box-shadow: 0 0 3px #FA3, inset 0 0 4px 1px #FFF;
 }
-
 
 /* MAIN CONTENT */
 
@@ -163,8 +152,6 @@ hr{
 .hero .container{
     position: relative;
     height: 100%;
-    
-
 }
 
 .hero .hero-text{
@@ -193,7 +180,6 @@ main .text{
     padding: 30px; 
     text-align: center;
      line-height: 1; 
-
 }
 
 .text .central-text h2{
@@ -211,23 +197,19 @@ main .text{
     width: 100px;
     height: 100px;
     margin: 40px auto;
-    
 }
 
 .second-column .image {
     width: 180px;
     height: 100px;
     margin: 40px auto;
-    
 }
 
 .third-column .image {
     width: 130px;
     height: 100px;
     margin: 40px auto;
-    
 }
-
 
 .course .explanation hr{
     margin: 20px;
@@ -335,6 +317,7 @@ hr.special {
     position:fixed;
     right:150px;
     bottom:-2px;
+    z-index: 1;
     
 }
 
@@ -507,15 +490,23 @@ h4{
 
 .hr-structure{
     background:#5daddc;
-    border: 0; 
-    height: 5px;
+    border: 0;  
+    height: 7px;
+    width: 90%;
+    position: relative;
+    right: 40px;
+
 }
 
 .professional .hr-structure{
+    position: relative;
+    bottom: 3px;
     background: orange;
 }
 
 .business .hr-structure{
+    position: relative;
+    bottom:8px;
     background: green;
 }
   
@@ -552,8 +543,13 @@ h4{
     transform: translateY(-50%);
 }
 
-.text-faqs h6 span{
+.text-faqs h6 a{
     color: orange;
+    text-decoration: none;
+}
+
+.text-faqs h6 a:hover{
+    color:rgb(243, 228, 24);
 }
 
 /* FOOTER */

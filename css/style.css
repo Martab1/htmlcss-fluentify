@@ -287,14 +287,14 @@ hr.special {
 }
 
 
-/* FOOTER */
+/* five section */
 
-.footer {
+.interaction {
     line-height: 140px;
     background-color: rgb(235, 232, 232);
 }
 
-.footer h5{
+.interaction h5{
      font-size: 20px;
      color: black;
 }

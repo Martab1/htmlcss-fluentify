@@ -472,3 +472,55 @@ h4{
 .monitor a {
     font-weight: 300;
 }
+
+/* structure section */
+
+.structure{
+    height: 400px;
+}
+
+.structure h5{
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.all{
+   padding-top:50px;
+   height: 300px;
+   width: 80%;
+   margin: auto;
+}
+
+.all .student{
+    height: 100%;
+   
+}
+
+.all .professional{
+    height: 100%;
+    background-color: lightgray;
+}
+
+.all .business{
+    height: 100%;
+    background-color: lightyellow;
+}
+
+.img-student{
+    width:40px;
+    margin-bottom: 20px;
+}
+
+.all h6{
+    color: black;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.all p{
+    letter-spacing: 1px;
+    font-size: 15px;
+}

@@ -348,8 +348,6 @@ h6{
     color:#fff;
 }
 
-
-
 /* BONUS */
 
 /* real-life section */
@@ -362,7 +360,6 @@ h6{
 .real-life img{
     width:80%;
 }
-
 
 .real-life h3{
     margin-top: 20px;
@@ -387,7 +384,6 @@ h6{
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 
 /* where section */
@@ -440,7 +436,6 @@ h4{
     color:#1e71b9;
 }
 
-
 /* company section */
 
 .company{
@@ -490,26 +485,11 @@ h4{
 .all{
    padding-top:50px;
    height: 300px;
-   width: 80%;
+   width: 90%;
    margin: auto;
 }
 
-.all .student{
-    height: 100%;
-   
-}
-
-.all .professional{
-    height: 100%;
-    background-color: lightgray;
-}
-
-.all .business{
-    height: 100%;
-    background-color: lightyellow;
-}
-
-.img-student{
+.img{
     width:40px;
     margin-bottom: 20px;
 }
@@ -524,3 +504,30 @@ h4{
     letter-spacing: 1px;
     font-size: 15px;
 }
+
+.hr-structure{
+    background: #00f; 
+    border: 0; 
+    height: 5px;
+}
+
+.professional .hr-structure{
+    background: orange;
+}
+
+.business .hr-structure{
+    background: green;
+}
+  
+.student a{
+    color:blue;
+}
+
+.professional a {
+    color:orange;
+}
+
+.business a {
+    color:green ;
+}
+
